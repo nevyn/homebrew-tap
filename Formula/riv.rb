@@ -3,8 +3,8 @@
 class Riv < Formula
   desc "Writer for the Rivulets board over Claude Code sessions"
   homepage "https://rivulets.d.nevyn.dev"
-  url "https://github.com/nevyn/Rivulets/releases/download/v0.1.0/riv-0.1.0-macos-universal.tar.gz"
-  sha256 "0b4163f34817da69eb37091ab1ab5cd5a2654c29174910ca15895403163fb729"
+  url "https://github.com/nevyn/homebrew-tap/releases/download/v0.1.0/riv-0.1.0-macos-universal.tar.gz"
+  sha256 "86a561d5bfeac76874abc9c667fa1f0f1d45fae01ef31361aa6f6d8a10d3ef2d"
 
   depends_on macos: :sonoma
 
