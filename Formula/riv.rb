@@ -3,8 +3,8 @@
 class Riv < Formula
   desc "Writer for the Rivulets board over Claude Code sessions"
   homepage "https://rivulets.d.nevyn.dev"
-  url "https://github.com/nevyn/homebrew-tap/releases/download/v0.3.0/riv-0.3.0-macos-universal.tar.gz"
-  sha256 "4fa5ac294191d3e58695067b1724d0c2a8449405eab7e9b4d1bceab4b9b91ae3"
+  url "https://github.com/nevyn/homebrew-tap/releases/download/v0.4.0/riv-0.4.0-macos-universal.tar.gz"
+  sha256 "f9161844cb2cf40b5eecb5e00b7e36ac9899c5d80cf93d1b50441cd1c90d556a"
 
   depends_on macos: :sonoma
 
@@ -24,5 +24,7 @@ class Riv < Formula
 
   test do
     assert_match "Rivulets", shell_output("#{bin}/riv --help")
+    # The release workflow stamps the tag into the binary, and rewrites url, hence version, to match.
+    assert_equal version.to_s, shell_output("#{bin}/riv --version").strip
   end
 end
