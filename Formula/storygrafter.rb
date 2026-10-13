@@ -1,8 +1,8 @@
 class Storygrafter < Formula
   desc "Review guides: the story of a code change, told next to every changed line"
   homepage "https://github.com/nevyn/StoryGrafter"
-  url "https://github.com/nevyn/StoryGrafter/releases/download/v0.1.1/storygrafter-0.1.1-macos-universal.tar.gz"
-  sha256 "6ee48965375e17cec86c0b884d0406fb3cae81be46e1a0003026c7554dffaa3b"
+  url "https://github.com/nevyn/StoryGrafter/releases/download/v0.2.0/storygrafter-0.2.0-macos-universal.tar.gz"
+  sha256 "1d18d243c18d7467305df30e6224543b22ee273d97045a45bd34453c94d2e8dc"
   license "MIT"
 
   depends_on macos: :sonoma
