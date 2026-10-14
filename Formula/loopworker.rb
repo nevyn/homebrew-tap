@@ -1,8 +1,8 @@
 class Loopworker < Formula
   desc "Claims cards from a backlog and runs one claude worker per card"
   homepage "https://github.com/KojaWorks/KojaLoopWorker"
-  url "https://github.com/KojaWorks/KojaLoopWorker/releases/download/v0.2.1/loopworker-0.2.1-macos-universal.tar.gz"
-  sha256 "c72b5dcecdfd5a8215851037218fec3cf398b1175e7f2c54129fe35bab8bb4d6"
+  url "https://github.com/KojaWorks/KojaLoopWorker/releases/download/v0.2.2/loopworker-0.2.2-macos-universal.tar.gz"
+  sha256 "6ce155e95cca17f3baf33706391b4b2f3a9bc5872b5e022b8639219412f16182"
 
   depends_on macos: :sonoma
   depends_on "tmux"
